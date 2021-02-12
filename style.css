@@ -54,11 +54,11 @@ body {
 }
 
 .apps-icon > img {
-	width: 2vh;
+	width: 1.7vh;
 }
 
 .account-picture > img {
-	width: 3vh;
+	width: 2.5vh;
 	border-radius: 100px;
 }
 
@@ -90,7 +90,7 @@ li > a:hover {
 	float: left;
 	padding: 15px;
 	margin-top: 10px;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .about {
@@ -100,7 +100,7 @@ li > a:hover {
 .gmail, .images, .apps-icon, .account-picture {
 	float: right;
 	padding: 15px;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .gmail, .images{
@@ -178,5 +178,19 @@ button:focus{
   }
 
   .footer {
-	margin-top: 60vh;
+	background-color: #EEEEEE;
+	margin-top: 59.4vh;
+	padding: 12px;
+	border-top: 1px solid #c8c8c8;
+	font-size: 15px;
+  }
+
+  .advertising, .business, .how-search-works {
+	  float: left;
+	  margin: 0 15px;
+  }
+
+  .privacy, .terms, .settings {
+	  float: right;
+	  margin: 0 15px;
   }
